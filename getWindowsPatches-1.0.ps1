@@ -53,8 +53,8 @@ param(
     $hotfixes = Get-HotFix -ComputerName $assets | Select-Object -Property HotFixID, InstalledOn 
     $hotfixes | ForEach-Object{
         [PSCustomObject]@{
-            Asset = $asset
-            Hotfix = $_.HotFixID
+            Asset       = $asset
+            Hotfix      = $_.HotFixID
             InstalledOn = $_.InstalledOn
         }
     }
