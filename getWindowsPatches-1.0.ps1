@@ -1,9 +1,9 @@
 <#
 .SYNOPSIS
- Lists / searches hotfixes applied to the local Windows machine or array of machines
+Lists / searches hotfixes applied to the local Windows machine or array of machines
 
 .DESCRIPTION
- Lists / searches hotfixes applied to the local Windows machine or array of machines
+ Lists /  searches hotfixes applied to the local Windows machine or array of machines
 
 .PARAMETER assets
 String array containing a list of assets to be checked. 
